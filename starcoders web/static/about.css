@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    overflow: hidden;
+    font-family: 'poppins',sans-serif;
+}
+.container-fluid{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.896),rgba(0, 0, 0, 0.067)),url(581153.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    color:#fff;
+    cursor: pointer;
+
+}
+nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav ul li{
+    margin-right: 30px;
+    cursor: pointer;
+    color:#fff;
+    font-weight: 400;
+    font-size: 15px;
+
+
+}
+
+nav ul a{
+    text-decoration: none;  
+}
+ nav ul li:hover
+{
+    color:#058283;
+}
+.btn1{
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    border:none;
+    background: #058283;
+    color:#fff;
+    cursor:pointer;
+    font-size: 14px;
+
+}
+.btn1:hover{
+        background: #fff;
+        color:#058283;
+
+}
+.content{
+    width: 1200px;
+    height:100vh;
+    margin:auto;
+
+}
+.content h3{
+    color: #058283;
+    padding-top: 100px;
+    font-weight: 400;
+
+}
+.content h1{
+    font-size: 80px;
+    color:#fff;
+    margin-top: 20px;
+    line-height: 75px;
+
+}
+.content p{
+    color:#fff;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+.content .btn1{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+.content .btn2{
+    background: transparent;
+    border: 1px solid #058283;
+    border-radius: 8px;
+    color: #fff;
+    margin-left: 10px;
+}
+.content .btn2:hover{
+    background: #058283;
+
+}
+.signup{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: end;
+    align-items: end;
+    margin-left: 880px;
+    
+    
+
+}
+input,.button2{
+width: 190px;
+border-radius: 8px;
+background-color: rgb(8, 8, 8);
+padding: 1em;
+color: #fff;
+border: none;
+
+}
+.button2{
+margin-top: 20px;
+color: #fff;
+width: 90px;
+background-color: #058283;
+
+
+}
+#pol{
+margin-left: 350px;
+border-radius: 8px;
+width: 390px;
+text-align: center;
+background-color: #058283;
+margin-top: -40px;
+
+}
+.hidden{
+display: none;
+}
+#paragaraph{
+font-size: small;
+}
+#anchorpara:hover{
+color:#058283;
+}

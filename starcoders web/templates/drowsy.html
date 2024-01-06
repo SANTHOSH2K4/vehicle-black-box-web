@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="newlogo.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vechileblackbox</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='drowsy.css')}}"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <h2 class="logo">SLYTHERIN</h2>
+        <nav>
+          <ul>
+            <a href="/"><li class="active">HOME</li></a>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>FACE RECOGNITION</h1>
+        <br />
+        <img
+          src="{{ url_for('static',filename='drowsy.jpg')}}"
+          alt=""
+          class="img1"
+        />
+        <img
+          src="{{ url_for('static',filename='webcam.png')}}"
+          alt=""
+          class="img2"
+        />
+        <p>
+          DROWSINESS REFERS TO FEELING MORE SLEEPY THAN NORMAL DURING THE DAY.
+          PEOPLE WHO ARE DROWSY MAY FALL ASLEEP IN WHEN THEY DO NOT WANT TO SHOW
+          AT TIMES WHICH CAN LEAD TO SAFETY CONCERNS.<br />
+          TO SOLVE THIS DROWSINESS DURING DRIVING CAN BE DETECTED AND ALERTED BY
+          BLACK BOX.<br />
+          <br />
+          A HP CAMERA(V390) WAS FITTED IN THE TOP OF THE INSIDE REAR VIEW
+          MIRROR,IT ISFOCUSED TOWARDS THE DRIVER'S FACE.<br />
+          <br />
+          IF HE YAWN OR CLOSES HIS EYES DUE TO DROWSINESS THE BUZZER SENSOR IN
+          THE BLACK BOX STARTS ALERTING THE DRIVER.<br />
+          <br />
+          TO MAKE IT POSSIBLE A PYTHON CODE WAS RUN IN THE RASPBERRY PI WHICH
+          WAS INSIDE THE BOX AND CONNECTED TO THE HP CAMERA(V 390). IT ALSO HAVE
+          SOME SPECIFIC ALGORITHM TO DETECT THE STATE OF THE DRIVER USING
+          SENSORS,ARTIFICIAL INTELLIGENCE(FACE RECOGNITION) AND RASPBERRY PI.
+        </p>
+        <button>
+          <a class="button" href="/drowsyplaceorder">PLACE ORDER</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

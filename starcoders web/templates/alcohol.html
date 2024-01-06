@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="newlogo.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vechileblackbox</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='alcohol.css')}}"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <h2 class="logo">SLYTHERIN</h2>
+        <nav>
+          <ul>
+            <a href="/"><li class="active">HOME</li></a>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>ALCOHOL DETECTION</h1>
+        <br />
+        <img
+          src="{{ url_for('static',filename='liquor.jpg')}}"
+          alt=""
+          class="img1"
+        />
+        <img
+          src="{{ url_for('static',filename='alcoholsensor.png')}}"
+          alt=""
+          class="img2"
+        />
+        <p>
+          Getting behind the wheel of a vehicle car, truck, motorcycle or any
+          other motorized vehicle after consuming alcohol is a serious crime.
+          <br />
+          <br />
+          Drinking and driving is sometimes called driving under the influence
+          (DUI) or driving while intoxicated (DWI), and involves operating a
+          vehicle with a blood alcohol content (BAC) level of at least 0.08%.
+          <br />
+          <br />
+          However, even a small amount of alcohol can lead to harmful
+          situations. Some drivers may not even show warning signs of being
+          under the influence, but that doesn't mean it's any less dangerous.
+          Alcohol can be detected using alcohol sensor connected to arduino.
+        </p>
+        <button>
+          <a class="button" href="/alcoholplaceorder">PLACE ORDER</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

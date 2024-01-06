@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="newlogo.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='fire.css')}}" />
+    <title>vechileblackbox</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <h2 class="logo">SLYTHERIN</h2>
+        <nav>
+          <ul>
+            <a href="/"><li class="active">HOME</li></a>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>FIRE DETECTION</h1>
+        <br />
+        <img
+          src="{{ url_for('static',filename='flamesensor.png')}}"
+          alt=""
+          class="img1"
+        />
+        <img
+          src="{{ url_for('static',filename='Car_fire_6.24.2004-1.jpg')}}"
+          alt=""
+          class="img2"
+        />
+        <p>
+          ONE OF THE MAIN CAUSES FOR ACCIDENTS IS UNEXPECTED FIRE.<br />
+          <br />
+          AN INTIMATION FOR FLAME HAZARD CAN BE GIVEN TO THE DRIVER EVEN TH FIRE
+          OCCURS IN SMALL AMOUNT.<br />
+          <br />
+          THIS CAN BE IMPLEMENTED USING A FLAME SENSOR.<br />
+          <br />
+          THE FLAME IS DETECTED BY THE FLAME SENSOR AND AN ALERT IS GIVEN TO THE
+          DRIVER AFTER A CERTAIN THRESHOLD VALUE.
+          <br />
+          THIS CAN HELP THE DRIVER TO ESCAPE FROM FIRE ACCIDENTS WITH MINOR
+          INJURIES.
+        </p>
+
+        <button>
+          <a class="button" href="/fireplaceorder">PLACE ORDER</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

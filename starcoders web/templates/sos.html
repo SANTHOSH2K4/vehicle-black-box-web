@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="newlogo.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='sos.css')}}" />
+    <title>vechileblackbox</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <h2 class="logo">SLYTHERIN</h2>
+        <nav>
+          <ul>
+            <a href="/"><li class="active">HOME</li></a>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>EMERGENCY SOS</h1>
+        <br />
+        <img
+          src="{{ url_for('static',filename='sos.png')}}"
+          alt=""
+          class="img1"
+        />
+        <img
+          src="{{ url_for('static',filename='sos.png')}}"
+          alt=""
+          class="img2"
+        />
+        <p>
+          WHEN WE ENCOUNTER AN ACCIDENT WE ARE IN NEED OF AN EFFECTIVE
+          COMMUNICATION SYSTEM<br />
+          <br />
+          SO AN EMERGENCY SOS SYSTEM IS DESIGNED TO NOTIFY IMMEDIATELY WHEN YOU
+          FACE AN ACCIDENT.<br />
+          <br />
+        </p>
+        <button><a class="button" href="/sosplaceorder">PLACE ORDER</a></button>
+      </div>
+    </div>
+  </body>
+</html>

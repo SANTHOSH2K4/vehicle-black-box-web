@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="newlogo.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='gas.css')}}" />
+    <title>vechileblackbox</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <h2 class="logo">SLYTHERIN</h2>
+        <nav>
+          <ul>
+            <a href="/"><li class="active">HOME</li></a>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>GAS LEAK DETECTION</h1>
+        <br />
+        <img
+          src="{{ url_for('static',filename='gas-leak-filled-retro-free-vector.jpg')}}"
+          alt=""
+          class="img1"
+        />
+        <img
+          src="{{ url_for('static',filename='gas_sensor.jpg')}}"
+          alt=""
+          class="img2"
+        />
+        <p>
+          GAS LEAKAGE CANNOT BE EASILY DETECTED WHILE DRIVING.<br />
+          <br />
+          GAS FILLED IN OUR VEHICLE IS INVISIBLE AND WE CAN'T PREDICT IT WHILE
+          DRIVING.<br />
+          <br />
+          SO, WE CAN THE GAS LEAKAGE USING A GAS SENSOR AND IDENTIFY GAS LEAKAGE
+          EASILY.
+        </p>
+        <button><a class="button" href="/gasplaceorder">PLACE ORDER</a></button>
+      </div>
+    </div>
+  </body>
+</html>
